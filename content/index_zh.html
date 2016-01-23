@@ -1,0 +1,50 @@
+<html lang="zh">
+<head>
+<title>Losywee的琅琊阁</title> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Losywee@gmail.com">
+<meta name="keywords" content="Losywee,琅琊阁,Research Center,Open source.">
+<meta name="description" content="For Losywee with Open source and Researh, Big data, Web, Html5, Linux etc.Losywee自由工作室，开源软件学习分享，大数据分析，web开发，html5开发，linux开发等等。">
+<link href="//a.tbcdn.cn/s/kissy/1.1.6/cssreset/reset-min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+<link href="static/css/index_cn.css" rel="stylesheet">
+<link href='//fonts.useso.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='//fonts.useso.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+<link href="static/css/loaders.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h1>欢迎，此处正在努力准备中...</h1>
+    </div>
+    <div class="clsloader"><div class="loader-inner ball-spin-fade-loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+    <div class="footer">
+        <p>Copyright@Losywee@gmail.com &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="http://blog.mmda.info">About</a> </p>
+    </div>
+</div>  
+<script src="//cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+
+</body>
+
+    
+</html>
+
+<script>
+function changebackground(){
+    var imgarr = new Array();
+    imgarr[0] = "http://i12.tietuku.com/8acec8ebba84ebcd.jpg"
+    imgarr[1] = "http://i12.tietuku.com/56bef3b5d3df9e35.jpg"
+    imgarr[2] = "http://i12.tietuku.com/2700bec42edadf5b.jpg"
+    imgarr[3] = "http://i12.tietuku.com/e2307a42b9377029.jpg"
+    imgarr[4] = "http://i12.tietuku.com/1c7675efe94e9153.jpg"
+    var rdimg = Math.floor(Math.random()*4);
+    
+    $('.wrapper').css("background-image", "url("+imgarr[rdimg]+")");
+}
+
+
+setInterval(function() { changebackground();}, 6000);
+
+</script>

@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+<title>Losywee Research Center</title> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Losywee@gmail.com">
+<meta name="keywords" content="Losywee,琅琊阁,Research Center,Open source.">
+<meta name="description" content="For Losywee with Open source and Researh, Big data, Web, Html5, Linux etc.Losywee自由工作室，开源软件学习分享，大数据分析，web开发，html5开发，linux开发等等。">
+<link href="//cdn.bootcss.com/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+<link href="//a.tbcdn.cn/s/kissy/1.1.6/cssreset/reset-min.css" rel="stylesheet">
+<link href="static/css/index.css" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:600,300" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+<link href="static/css/loaders.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h1>Welcome! The website is building.</h1>
+    </div>
+    <div class="clsloader"><div class="loader-inner ball-spin-fade-loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+    <div class="footer">
+        <p>Copyright@Losywee@gmail.com &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="http://blog.mmda.info">About</a> </p>
+    </div>
+</div>  
+<script src="//cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+
+</body>
+
+    
+</html>
+
+<script>
+function changebackground(){
+    var imgarr = new Array();
+    imgarr[0] = "https://cdn.pbrd.co/images/2vIumSbq.jpg"
+    imgarr[1] = "https://cdn.pbrd.co/images/2vID0Sn8.jpg"
+    imgarr[2] = "https://cdn.pbrd.co/images/2vIGDwGt.jpg"
+    imgarr[3] = "https://cdn.pbrd.co/images/2vIL081H.jpg"
+    imgarr[4] = "https://cdn.pbrd.co/images/2vJ0g1fV.jpg"
+    var rdimg = Math.floor(Math.random()*4);
+    
+    $('.wrapper').css("background-image", "url("+imgarr[rdimg]+")");
+}
+
+
+setInterval(function() { changebackground();}, 6000);
+
+</script>
